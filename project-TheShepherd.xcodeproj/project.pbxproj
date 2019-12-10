@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		908BAC1B239EB1D100D984FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908BAC1A239EB1D100D984FE /* AppDelegate.swift */; };
 		908BAC1D239EB1D100D984FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908BAC1C239EB1D100D984FE /* SceneDelegate.swift */; };
-		908BAC1F239EB1D100D984FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908BAC1E239EB1D100D984FE /* ViewController.swift */; };
 		908BAC22239EB1D100D984FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908BAC20239EB1D100D984FE /* Main.storyboard */; };
 		908BAC24239EB1D300D984FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908BAC23239EB1D300D984FE /* Assets.xcassets */; };
 		908BAC27239EB1D300D984FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908BAC25239EB1D300D984FE /* LaunchScreen.storyboard */; };
+		908BAC2F239EB20800D984FE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908BAC2E239EB20800D984FE /* DetailViewController.swift */; };
+		908BAC31239F1FAF00D984FE /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908BAC30239F1FAF00D984FE /* ToDoListTableViewController.swift */; };
+		908BAC33239F443800D984FE /* TaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908BAC32239F443800D984FE /* TaskType.swift */; };
+		908BAC35239F444E00D984FE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908BAC34239F444E00D984FE /* Task.swift */; };
+		90CE6A93239FDDED002202E1 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE6A92239FDDED002202E1 /* TaskTableViewCell.swift */; };
+		90CE6A99239FFE8F002202E1 /* TaskCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CE6A98239FFE8F002202E1 /* TaskCreatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		908BAC17239EB1D100D984FE /* project-TheShepherd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "project-TheShepherd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		908BAC1A239EB1D100D984FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		908BAC1C239EB1D100D984FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		908BAC1E239EB1D100D984FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		908BAC21239EB1D100D984FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		908BAC23239EB1D300D984FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		908BAC26239EB1D300D984FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		908BAC28239EB1D300D984FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908BAC2E239EB20800D984FE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		908BAC30239F1FAF00D984FE /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
+		908BAC32239F443800D984FE /* TaskType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskType.swift; sourceTree = "<group>"; };
+		908BAC34239F444E00D984FE /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		90CE6A92239FDDED002202E1 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		90CE6A98239FFE8F002202E1 /* TaskCreatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCreatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		908BAC19239EB1D100D984FE /* project-TheShepherd */ = {
 			isa = PBXGroup;
 			children = (
-				908BAC1A239EB1D100D984FE /* AppDelegate.swift */,
 				908BAC1C239EB1D100D984FE /* SceneDelegate.swift */,
-				908BAC1E239EB1D100D984FE /* ViewController.swift */,
-				908BAC20239EB1D100D984FE /* Main.storyboard */,
+				90CE6A98239FFE8F002202E1 /* TaskCreatorViewController.swift */,
+				908BAC32239F443800D984FE /* TaskType.swift */,
+				90CE6A92239FDDED002202E1 /* TaskTableViewCell.swift */,
+				908BAC34239F444E00D984FE /* Task.swift */,
+				908BAC2E239EB20800D984FE /* DetailViewController.swift */,
+				908BAC30239F1FAF00D984FE /* ToDoListTableViewController.swift */,
+				908BAC1A239EB1D100D984FE /* AppDelegate.swift */,
 				908BAC23239EB1D300D984FE /* Assets.xcassets */,
-				908BAC25239EB1D300D984FE /* LaunchScreen.storyboard */,
 				908BAC28239EB1D300D984FE /* Info.plist */,
+				908BAC25239EB1D300D984FE /* LaunchScreen.storyboard */,
+				908BAC20239EB1D100D984FE /* Main.storyboard */,
 			);
 			path = "project-TheShepherd";
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908BAC1F239EB1D100D984FE /* ViewController.swift in Sources */,
+				90CE6A93239FDDED002202E1 /* TaskTableViewCell.swift in Sources */,
+				908BAC31239F1FAF00D984FE /* ToDoListTableViewController.swift in Sources */,
 				908BAC1B239EB1D100D984FE /* AppDelegate.swift in Sources */,
+				908BAC33239F443800D984FE /* TaskType.swift in Sources */,
+				90CE6A99239FFE8F002202E1 /* TaskCreatorViewController.swift in Sources */,
 				908BAC1D239EB1D100D984FE /* SceneDelegate.swift in Sources */,
+				908BAC35239F444E00D984FE /* Task.swift in Sources */,
+				908BAC2F239EB20800D984FE /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
