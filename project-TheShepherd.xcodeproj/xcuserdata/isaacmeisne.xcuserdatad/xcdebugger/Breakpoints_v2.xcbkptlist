@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5BC38572-A1EF-4BE7-B870-37DFBBE61DBB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E90BDD48-0B8C-4B4A-91F4-8D6242BAD632"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "project-TheShepherd/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "DetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E90BDD48-0B8C-4B4A-91F4-8D6242BAD632 - bc391ec0c28b46b8"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "project_TheShepherd.DetailViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; project_TheShepherd.DetailViewController"
+                  moduleName = "project-TheShepherd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaacmeisner%201/XCode-Projects/project-TheShepherd/project-TheShepherd/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "E90BDD48-0B8C-4B4A-91F4-8D6242BAD632 - 7af4836a144afd61"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "project_TheShepherd.DetailViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; project_TheShepherd.DetailViewController"
+                  moduleName = "project-TheShepherd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaacmeisner%201/XCode-Projects/project-TheShepherd/project-TheShepherd/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "E90BDD48-0B8C-4B4A-91F4-8D6242BAD632 - 283e16b444116101"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "project_TheShepherd.DetailViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;project_TheShepherd.DetailViewController&gt;"
+                  moduleName = "project-TheShepherd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaacmeisner%201/XCode-Projects/project-TheShepherd/project-TheShepherd/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "E90BDD48-0B8C-4B4A-91F4-8D6242BAD632 - 48e2c4350c92843e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "project_TheShepherd.DetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;project_TheShepherd.DetailViewController&gt;"
+                  moduleName = "project-TheShepherd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaacmeisner%201/XCode-Projects/project-TheShepherd/project-TheShepherd/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  uuid = "E90BDD48-0B8C-4B4A-91F4-8D6242BAD632 - af675b3ad115230"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "project_TheShepherd.DetailViewController.__deallocating_deinit"
+                  moduleName = "project-TheShepherd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/isaacmeisner%201/XCode-Projects/project-TheShepherd/project-TheShepherd/DetailViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
